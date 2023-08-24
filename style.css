@@ -1,36 +1,37 @@
-@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Kumbh+Sans:wght@400;700&family=Space+Mono:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gluten:wght@200&family=Josefin+Sans&family=Kumbh+Sans:wght@400;700&family=Space+Mono:wght@700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Gluten;
 }
 body {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-width: 100vh;
-  background-color: #44b09e;
-background-image: linear-gradient(315deg, #44b09e 0%, #e0d2c7 74%);
-  color: black;
+  height: 100vh;
+  background-image: url("https://img.elo7.com.br/product/zoom/3766DF0/adesivo-coracoes-tons-de-rosa-decorativo-adesivo.jpg");
+  
 }
 h1 {
-  font-size: 3rem;
+  font-size: 4rem;
   margin-bottom: 2rem;
 }
-.container{
+.container {
   display: flex;
   gap: 50px;
   align-items: center;
   justify-content: center;
 }
-.countdown-wrapper{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.countdown-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.big-text{
-    font-size: 7rem;
+.big-text {
+  font-size: 7rem;
 }
