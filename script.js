@@ -23,6 +23,7 @@ function countdown () {
     secondsEL.innerHTML = seconds;
 }
 
+
 countdown();
 
 setInterval(countdown, 1000);
