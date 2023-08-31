@@ -19,11 +19,13 @@ h1 {
   font-size: 4rem;
   margin-bottom: 2rem;
 }
+  
 .container {
   display: flex;
   gap: 50px;
   align-items: center;
   justify-content: center;
+  
 }
 .countdown-wrapper {
   display: flex;
@@ -35,3 +37,11 @@ h1 {
 .big-text {
   font-size: 7rem;
 }
+.button {
+  background: purple;
+  font-size: 1.5rem;
+  
+}
+
+
+

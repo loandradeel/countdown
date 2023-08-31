@@ -16,14 +16,24 @@ function countdown () {
     const minutes = Math.floor(totalSecond / 60) % 60;
     const seconds = Math.floor(totalSecond) % 60;
     
-    
-    daysEL.innerHTML = days;
-    hoursEL.innerHTML = hours;
-    minutesEL.innerHTML = minutes;
-    secondsEL.innerHTML = seconds;
+    daysEL.innerHTML = formtTime (days);
+    hoursEL.innerHTML = formtTime (hours);
+    minutesEL.innerHTML = formtTime (minutes);
+    secondsEL.innerHTML = formtTime (seconds);
 }
 
+function formtTime(time) {
+    return time < 10 ? `0${time}` : time;
+}
 
 countdown();
 
 setInterval(countdown, 1000);
+
+const btn = document.querySelector("#btn");
+
+function testarClick(){
+    alert("TE AMO!");
+}
+
+btn.addEventListener("click", testarClick);
